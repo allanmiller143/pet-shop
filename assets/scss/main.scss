@@ -1,0 +1,42 @@
+main{
+  background-color: $cor-secundaria;
+  section{
+    padding-top: 100px;
+    .principal{
+      h1{
+        color: $branco;
+        font-size: 75px;
+      }
+      p{
+        color: $branco;
+        font-size: 30px;
+      }
+      nav{       
+       .btn{
+         color: $branco;
+         padding: 10px 25px;
+         border-radius: 5px;
+         font-weight: 700;
+         margin: 10px;
+         font-size: 20px;
+         
+       }
+       .btn-azul{
+         background-color: $cor-terciaria; 
+          
+
+       }
+       .btn-amarelo{
+         background-color: $cor-secundaria;
+         border: solid 2px $branco;
+       }
+      }
+    }
+
+    .imagem-dog{
+      img{
+
+      }
+    }
+  }
+}

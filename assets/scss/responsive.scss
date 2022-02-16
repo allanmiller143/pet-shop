@@ -1,0 +1,182 @@
+@media(max-width:991px){
+ header{
+   section{
+     .navegacao{
+       ul{
+         li{
+           a{
+             font-size: 15px;
+             padding-left: 20px;
+           }
+         }
+       }
+     }
+
+     .pesquisa{
+       form{
+         input{
+          width: 150px;
+          height: 35px;
+         }
+
+         button{
+          width: 40px;
+          height: 35px;
+         }
+       }
+     }
+   }
+ }
+ main{
+   section{
+     .principal{
+       h1{
+         font-size: 30px;
+       }
+       p{
+         font-size: 20px;
+       }
+     }
+   }
+ }
+}
+
+@media(max-width:767px){
+  header{
+    section{
+      .logo{
+        img{
+          width:120px;
+        }
+      }
+      .navegacao{
+        ul{
+          li{
+            a{
+              font-size: 12px;
+              
+            }
+          }
+        }
+      }
+ 
+      .pesquisa{
+        form{
+          margin-left: 20px;
+          input{
+           width: 100px;
+           height: 30px;
+          }
+ 
+          button{
+           width: 30px;
+           height: 30px;
+
+           svg{
+             width: 20px;
+             position: relative;
+             bottom: 5px;
+             right: 2px;
+           }
+          }
+        }
+      }
+    }
+  }
+  main{
+    section{
+      .principal{
+        padding-top: 50px;
+        h1{
+          font-size: 30px;
+        }
+        p{
+          font-size: 15px;
+        }
+        nav{       
+        .btn{
+          color: $branco;
+          padding: 4px 16px;
+          border-radius: 5px;
+          font-weight: 700;
+          margin: 5px;
+          
+        }
+      }
+      }    
+  }
+ }
+}
+
+
+@media(max-width:451px){
+  header{
+    section{
+      .logo{
+        img{
+          width:100px;
+        }
+      }
+      .navegacao{
+        ul{
+          li{
+            a{
+              font-size: 10px;
+              
+            }
+          }
+        }
+      }
+ 
+      .pesquisa{
+        form{
+          margin-left: 20px;
+          input{
+           width: 80px;
+           height: 24px;
+          }
+          input::placeholder{
+            font-size: 12px;
+          }
+ 
+          button{
+           width: 20px;
+           height: 24px;
+
+           svg{
+             width: 11px;
+             position: relative;
+             bottom: 8px;
+             right: 2px;
+           }
+          }
+        }
+      }
+    }
+  }
+  main{
+    section{
+      .principal{
+        padding-top: 50px;
+        h1{
+          font-size: 25px;
+        }
+        p{
+          font-size: 12px;
+        }
+        nav{       
+        .btn{
+          color: $branco;
+          padding: 4px 16px;
+          border-radius: 5px;
+          font-weight: 700;
+          margin: 5px;
+          font-size: 10px;
+        }
+        
+      
+   }
+   }    
+  }
+ }
+}

@@ -1,0 +1,57 @@
+header{
+  background-color: $cor-primaria;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  section{
+    align-items: center;
+    .logo{
+      img{
+        width: 100%;       
+      }     
+    }
+
+    .navegacao{
+      margin-left: 50px;
+      ul{
+        li{
+          a{
+           color: $branco;
+           text-decoration: none;
+           padding-left: 40px;
+           font-size: 20px;
+          }
+        }
+      }
+    }
+    .pesquisa{
+      form{
+        input{
+        background-color: $cor-secundaria;
+        border: none;
+        padding: 7px 0px 7px 5px;
+        width: 200px;
+        height: 40px;
+        }
+        
+        input::placeholder{
+          color: $branco;
+          font-size: 20px;
+        }
+
+        button{
+          border: none;
+          background-color: $cor-terciaria; 
+          padding: 7px 0px 7px 5px;
+          width: 67px;
+          height: 40px;
+          position:absolute ;
+          svg{
+          color: $branco;
+          }
+        }
+      }
+    }
+
+    
+  }
+}
